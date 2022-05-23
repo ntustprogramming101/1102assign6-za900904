@@ -17,8 +17,6 @@ class Laser {
 
 	void display(){
 
-		if(!isAlive) return;
-
 		strokeWeight(10);
 		stroke(255, 0, 0);
 		if(dist(x, y, originX, originY) <= maxLength){
